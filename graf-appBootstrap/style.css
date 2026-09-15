@@ -1,0 +1,57 @@
+/* Color gris de fondo general */
+body {
+  background-color: #a8b0b8;
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Banner azul superior */
+.header-banner {
+  background-color: #0066ff;
+}
+
+/* Banner oscuro inferior */
+.footer-banner {
+  background-color: #555d65;
+  letter-spacing: 2px;
+}
+
+/* Tarjetas */
+.profile-card {
+  border-radius: 20px !important;
+  background-color: #ffffff;
+}
+
+/* Imágenes circulares de perfil */
+.profile-img {
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+/* Iconos de redes sociales en círculos negros */
+.social-btn {
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.2s ease;
+}
+
+.social-btn:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
